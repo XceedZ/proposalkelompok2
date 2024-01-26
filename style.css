@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Myfontclass-Regular';
+    src: url('Myfontclass-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Myfontclass-Regular', sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    font-size: 24px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.disusun {
+    text-align: center;
+}
+
+.disusun ol {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.disusun ol li {
+    text-align: center; /* Mengatur teks elemen li ke tengah */
+    margin-bottom: 10px;
+}
+
+.gambarsmk img {
+    max-width: none;
+    width: 230px;
+    height: auto;
+}
+
+.judul2 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.bab {
+    font-size: 24px;
+}
+
+.sub-bab {
+    text-align: justify;
+}
+
+.konten {
+    
+    text-align: justify;
+}
